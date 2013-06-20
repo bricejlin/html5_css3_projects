@@ -1,0 +1,27 @@
+body {
+	text-align: center;
+}
+
+#box {
+	display: block;
+	color: #FFF;
+	margin: 150px auto;
+	width: 120px;
+	opacity: 0.6;
+	border-radius: 10px;
+  background: red;
+  height: 75px;
+	/*-webkit-transform: translate(100px,100px); #scale(),rotate(),skew(),translate()*/
+	-webkit-transition: -webkit-transform 2s, opacity 2s, background 2s, width 2s, height 2s;
+}
+
+#box:hover {
+	-webkit-transform: rotate(360deg);
+	opacity: 1;
+	background: #1ec7e6;
+	width: 450px;
+	height: 110px;
+}
+
+#text {
+}
